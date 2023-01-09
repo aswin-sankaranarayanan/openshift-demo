@@ -10,6 +10,6 @@ public class TestController {
 
 	@GetMapping("/test")
 	public String test() {
-		return "App Version V2";
+		return "App Version V3";
 	}
 }
