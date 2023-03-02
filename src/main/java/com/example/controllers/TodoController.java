@@ -21,6 +21,11 @@ public class TodoController {
 
 	@Autowired
 	private TodoService todoService;
+	
+	@GetMapping("/test/")
+	public String getVersion(){
+		return "APP Version 1";
+	}
 
 	@GetMapping
 	public ResponseEntity<List<Todo>> findAll(){
