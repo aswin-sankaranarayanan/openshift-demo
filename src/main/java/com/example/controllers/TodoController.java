@@ -24,7 +24,7 @@ public class TodoController {
 	
 	@GetMapping("/test")
 	public String getVersion(){
-		return "APP Version 1";
+		return "App Version 1";
 	}
 
 	@GetMapping
