@@ -22,7 +22,7 @@ public class TodoController {
 	@Autowired
 	private TodoService todoService;
 	
-	@GetMapping("/test/")
+	@GetMapping("/test")
 	public String getVersion(){
 		return "APP Version 1";
 	}
